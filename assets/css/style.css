@@ -1,3 +1,8 @@
+body {
+  /* height: 100vh; */
+  background-color: #006699;
+}
+
 .container {
 
   display: flex;
@@ -9,7 +14,7 @@
 
   border: 1px solid cadetblue;
   border-radius: 15px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 
   padding: 5px;
   margin: 2px;
@@ -17,20 +22,74 @@
 
 
 #score {
-  
+  background-color: #33cccc;
 }
 
 #crystals {
-  
+  background-color: #00ccff;
 }
+
+.crystal {
+  width: 128px;
+  height: 128px;
+  cursor: pointer;
+  position: relative;
+  border: solid 1px #00a3cc;
+  border-radius: 20px;
+  background-color: #80e5ff;
+  box-shadow: 0 6px #00a3cc;
+}
+
+.crystal:hover {
+  box-shadow: 0 5px #00a3cc;
+  top: 1px;
+}
+
+.crystal:active {
+  box-shadow: 0 0 #00a3cc;
+  top: 6px;
+}
+
+
+/* #new-game-btn {
+    outline: none;
+    border: none; 
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #00b9d3;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 6px darkslategray;
+}
+
+#new-game-btn:hover {
+    box-shadow: 0 5px darkslategray;
+    top: 1px;
+}
+
+#new-game-btn:active {
+    box-shadow: 0 0 darkslategray;
+    top: 6px;
+} */
+
 
 #stats {
-  
+  background-color: #0099ff;
 }
 
+
 p {
-  padding: 5px;
+  padding: 10px;
   margin: 2px;
-  border: 2px solid darkcyan;
+  color: white;
+  font-size: 22px;
+
+  border: 2px solid white;
   border-radius: 15px;
 }
