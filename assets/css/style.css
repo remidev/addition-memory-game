@@ -1,0 +1,36 @@
+.container {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* align-content: space-around; */
+
+  height: 33vh;
+
+  border: 1px solid cadetblue;
+  border-radius: 15px;
+  background-color: aquamarine;
+
+  padding: 5px;
+  margin: 2px;
+}
+
+
+#score {
+  
+}
+
+#crystals {
+  
+}
+
+#stats {
+  
+}
+
+p {
+  padding: 5px;
+  margin: 2px;
+  border: 2px solid darkcyan;
+  border-radius: 15px;
+}

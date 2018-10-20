@@ -12,6 +12,8 @@
         - wins div
         - losses div 
 
+   - ARRAY OF CRYSTAL IMAGE LINKS
+
    - (RE)INITIALIZE GAME DATA:
       - Generate target score randomly between 19 & 120
         - display generated number in target score div
@@ -27,7 +29,7 @@
 
    - CREATE ON CLICK FUNCTION FOR DOCUMENT.CRYSTAL ELEMENTS
       - Add value of crystal to user score
-      
+
       - Check user score against target score
         - win (userScore===targetScore)
           - wins++

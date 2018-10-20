@@ -10,29 +10,43 @@
   <title>Crystal Collector</title>
 
   <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
 </head>
 
 <body>
 
+  <!-- Score Container -->
   <div class="container" id="score">
-    <div id="targetScore">
-
+    <!-- User Score -->
+    <div>
+      <p>Your Score:<span id="userScore"></span></p>
     </div>
-    <div id="userScore">
-
+    <!-- Target Score-->
+    <div>
+      <p>Target Score:<span id="targetScore"></span></p>
     </div>
   </div>
+
+  <!-- Crystal Container -->
   <div class="container" id="crystals">
-
+    <img src="assets/images/green_crystal-128.png">
+    <img src="assets/images/orange_crystal-128.png">
+    <img src="assets/images/crystal_turquoise-128.png">
+    <img src="assets/images/pink_crystal-128.png">
+    <img src="assets/images/yellow_crystal-128.png">
   </div>
+  
+  <!-- Stats Container -->
   <div class="container" id="stats">
-    <div class="wins">
-
+    <!-- Wins -->
+    <div>
+      <p>Wins:<span id="wins"></span></p>
     </div>
-    <div class="losses">
-
+    <!-- Losses -->
+    <div>
+      <p>Losses:<span id="losses"></span></p>
     </div>
   </div>
 
